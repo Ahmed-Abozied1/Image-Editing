@@ -1,0 +1,68 @@
+.crop-section-wrapper {
+  flex-direction: column;
+  width: 175px;
+  display: flex;
+ height: 100%;
+ justify-content: space-between;
+}
+
+.crop-section {
+  margin-top: 20px;
+  display: flex;
+  width: 100% !important;
+}
+
+.box1{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 2px solid #D42F2F;
+}
+.box2{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 2px solid #148106 !important;
+  color: #148106 !important;
+}
+.crop-section .left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #f1f1f1;
+  
+}
+
+.crop-section .left-section label {
+  margin-top: 14px;
+}
+
+.crop-section .right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 0px 10px;
+}
+
+.crop-section .right-section label {
+  width: 60px;
+  margin-top: 10px;
+  color: #f1f1f1;
+  font-size: 18.5px;
+}
+
+.crop-section-wrapper button {
+  float: right;
+  margin: 5px 10px;
+}

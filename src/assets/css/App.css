@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #25252d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #25252d;
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #25252d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: #1a1a20;
+  color: #d42f2f;
+  min-height: 60px;
+  width: 100%;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.footer {
+  background-color: #1a1a20;
+  color: #fff;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.side-menu {
+  height: 100%;
+  min-width: 300px;
+  color: #d42f2f;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 999;
+}
+
+.side-menu .icons {
+  background-color: #1a1a20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 75px;
+  margin-right: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.side-menu .options {
+  background-color: #1a1a20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 225px;
+  margin-right: auto;
+  z-index: 99;
+  border-left: solid 1px #3a3a3e;
+}
+
+.content {
+  background-color: #25252d;
+  height: 100%;
+  width: 100%;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.middle-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.MuiSlider-root {
+  color: #d42f2f !important;
+}
+
+.desktop {
+  height: 100vh;
+  width: 100%;
+}
+
+.mobile {
+  height: 100vh;
+  width: 100%;
+  display: none;
+  cursor: default
+}
+
+.no-responsive-text {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
